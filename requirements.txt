@@ -2,3 +2,15 @@ streamlit
 gspread
 google-auth
 pandas
+reportlab
+reportlab.lib.pagesizes 
+reportlab.platypus 
+reportlab.lib 
+reportlab.lib.styles 
+reportlab.pdfbase 
+reportlab.pdfbase.ttfonts
+io
+os
+re
+calendar
+datetime
