@@ -23,13 +23,10 @@ except Exception:
     TTFont = None
 
 THAI_FONT_PATHS = [
-    r"C:\Windows\Fonts\LeelawUI.ttf",
-    r"C:\Windows\Fonts\leelawad.ttf",
-    r"C:\Windows\Fonts\angsana.ttc",
-    r"C:\Windows\Fonts\cordia.ttc",
-    r"C:\Windows\Fonts\THSarabun.ttf",
-    r"C:\Windows\Fonts\THSarabunNew.ttf",
-    r"C:\Windows\Fonts\TH Sarabun New.ttf",
+    "THSarabunNew.ttf",                   # ⭐️ สำหรับตอนรันบนเว็บ Streamlit Cloud
+    "THSarabun.ttf",                      # ⭐️ เผื่อไว้
+    r"C:\Windows\Fonts\THSarabunNew.ttf", # สำหรับตอนรันรันในคอมตัวเอง
+    r"C:\Windows\Fonts\THSarabun.ttf"
 ]
 THAI_PDF_FONT = None
 
